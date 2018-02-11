@@ -1,0 +1,66 @@
+— How to start building a page with Seedbelt Framework?
+Start editing with the file /start-template.html. It is a template of an empty page. Use it to start a new page, but with all the needed structure of the file.
+
+
+— Where are the blocks I can use?
+You need to open a Library of Blocks /library.html, choose the blocks you like, copy & paste them inside your start template.
+
+
+— How to change an icon?
+We used Material Icons https://material.io/icons/ To change any icon, find the right icon and change its name in the source code: <i class="material-icons">bluetooth_searching</i>
+
+
+— How to change a font name?
+1. Remove <link rel="stylesheet" media="all" href="css/letter-spacing.css">
+2. Change <link href="https://fonts.googleapis.com/css?family=Karla:400,700|PT+Serif|Roboto:700" rel="stylesheet">
+3. Replace font-family inside app.css
+
+
+— How to change a logo?
+Just change the path to your svg file with the logo <img class="header__pic" src="img/circle.svg" alt="">
+
+
+— How to change the width of any block?
+For <div class="block"> you can add a class <div class="block width-10">. In this case you'll get a block with 10% width. You able to use "width-10" to "width-90" which means 10% to 90% width.
+
+
+— How to make the width of a block the same as the text inside it?
+<div class="block inline">
+
+
+— How to make a title inside the block bigger or smaller?
+<div class="title lg">Large title</div>
+<div class="title sm">Small title</div>
+
+
+— How to use dark color scheme for any block?
+<div class="block black">
+
+
+— How to make an anchor for any block?
+id="block_name". https://stackoverflow.com/questions/484719/html-anchors-with-name-or-id
+
+
+— How to hide any block on a mobile device?
+Use class "mobile-hide"
+
+
+— How to make a background darker or lighter?
+Use class fade-1 to fade-9. 
+<div class="bg__item fade-6 visible js-bg-item" style="background-image: url(img/bg.jpg);"></div>
+
+
+— I don't need a footer. How do I hide it?
+Just remove everything between <!-- footer--> and <!-- end footer -->
+
+
+— How to add a video to the background?
+See an example: /examples/background-video.html
+
+
+— How to change a background image after scrolling any block?
+See an example: /examples/change-background-on-scroll.html
+
+
+— How to work with interactive blocks (blue dialog blocks)?
+See an example: /examples/background-video.html
