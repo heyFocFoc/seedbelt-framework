@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Seedbelt HTML Framework — Website template that looks like a conversation</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#fff">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="Simple, beautiful and flexible tool to connect to your audience. With pre-designed blocks, you can focus on the content and build pages that share your ideas and interact with your users.">
+  <!--Twitter Card data-->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@publisher_handle">
+  <meta name="twitter:title" content="Seedbelt Framework">
+  <meta name="twitter:description" content="Simple, beautiful and flexible tool to connect to your audience. With pre-designed blocks, you can focus on the content and build pages that share your ideas and interact with your users.">
+  <meta name="twitter:creator" content="@author_handle">
+  <meta name="twitter:image" content="http://seedbelt-framework.com/img/fb.jpg">
+  <!--Open Graph data-->
+  <meta property="og:title" content="Seedbelt HTML Framework">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://seedbelt-framework.com">
+  <meta property="og:image" content="http://seedbelt-framework.com/img/fb.jpg">
+  <meta property="og:description" content="Simple, beautiful and flexible tool to connect to your audience. With pre-designed blocks, you can focus on the content and build pages that share your ideas and interact with your users.">
+  <meta property="og:site_name" content="Seedbelt Framework">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico">
+  <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Styles, Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|PT+Serif|Roboto:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" media="all" href="css/app.css">
+  <link rel="stylesheet" media="all" href="css/letter-spacing.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KNZK9BX');</script>
+  <!-- End Google Tag Manager -->
+	<!-- Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-109173987-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- //Analytics -->
+  <!-- Hotjar Tracking Code for http://seedbelt-framework.com/ -->
+	<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:679994,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNZK9BX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="out">
+
+<!-- bg-->
+<div class="bg">
+	<div class="bg__item fade-5 visible js-bg-item" style="background-image: url(img/bg-mountain.jpg);"></div>
+  <div class="bg__item fade-2 js-bg-item" style="background-image: url(img/bg-road.jpg);"></div>
+  <div class="bg__item fade-2 js-bg-item" style="background-image: url(img/bg-hk.jpg);"></div>
+</div>
+<!-- end bg -->
+
+<!-- header-->
+<header class="header fixed js-header" data-gradient="black">
+  <div class="header__left" data-animate>
+    <a class="header__logo" href="/">
+      <img class="header__pic" src="img/circle.svg">
+    </a>
+    <div class="header__text"><span class="bold">Seedbelt Framework</span><span class="hide"> — Website template that looks like a conversation.</span></div>
+  </div>
+  <div class="header__right" data-animate>
+    <button class="header__burger js-header-burger">
+      <i class="material-icons material-icons-menu">menu</i>
+      <i class="material-icons material-icons-close">close</i>
+    </button>
+    <div class="header__wrap">
+      <div class="header__menu">
+
+        <!-- menu links-->
+        <a class="header__link" href="#" data-add=".features">Features</a>
+        <a class="header__link" href="#" data-add=".design">Design</a>
+        <a class="header__link" href="#" data-add=".pricing">Pricing</a>
+        <!-- end menu links -->
+
+        <!-- btn for mobile version-->
+        <a class="header__link hide" href="#" data-add=".pricing">Purchase</a></div>
+        <!-- end btn for mobile version-->
+
+      <!-- btn for desktop version-->
+      <button class="header__btn btn blue rounded" data-wave href="#" data-add=".pricing">Purchase</button>
+      <!-- end btn for desktop version-->
+
+      <div class="header__container hide">
+        <div class="header__item">
+          <div class="text sm bold mb-5">Interactive animated blocks</div>
+          <div class="text sm opacity-80 mb-5">Polished pre-designed blocks to present any type of content. Fit them together like a puzzle.</div>
+        </div>
+        <div class="header__item">
+          <div class="text sm bold mb-5">30-day money back guarantee</div>
+          <div class="text sm opacity-80 mb-5">If this product will not cater to your needs, we will return the money with no questions asked.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<!-- wrapper-->
+<div class="wrapper">
+
+<!-- center -->
+<div class="center">
+
+<!-- PASTE YOUR HTML BLOCKS HERE -->
+<!-- IDEA -->
+<div class="idea">
+  <!-- block 1-->
+  <div class="block inline arrow profile" data-animate data-bg="1">
+    <div class="ava" data-animate>
+      <img class="img" src="img/user.png">
+    </div>
+    <div class="container sm" data-animate>
+      <div class="text">Hi, I’m Vladimir, the creator of Seedbelt Framework, a new type of a page builder 🔥</div>
+    </div>
+  </div>
+  <!-- end block 1 -->
+ <!-- block 8 -->
+  <div class="block" data-animate>
+    <div class="container">
+      <figure class="figure mb-20" data-animate>
+        <a class="figure-preview" href="#" data-lightbox-video="https://www.youtube.com/embed/upWhKQQzQWw?rel=0&amp;autoplay=1">
+          <img class="img" src="img/video-blocks.jpg">
+          <div class="play">
+            <i class="material-icons">play_arrow</i>
+          </div>
+        </a>
+        <figcaption class="figcaption"><span class="bold">Watch animated blocks</span> in Seedbelt Framework</figcaption>
+      </figure>
+      <div class="title sm" data-animate>Seedbelt Framework is a simple, beautiful and flexible tool to connect with your audience</div>
+      <div class="text" data-animate>With 30+ animated pre-designed HTML blocks, you can focus on the content and build pages to share your ideas and interact with your users.</div>
+    </div>
+  </div>
+  <!-- end block 8 -->
+  <!-- block 2 -->
+  <div class="block" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">We’ve designed a HTML UI Kit inspired by the look and behavior of a chat messenger.</div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+  <!-- block 2 -->
+  <div class="block inline" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">Why? Because everybody use messengers to share ideas. This is the <b>most natural way to communicate.</b></div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+  <!-- block 2 -->
+  <div class="block inline" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">The page you see has been made using this kit.</div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+  <!-- block 21-->
+  <div class="block" data-animate>
+    <div class="container lg">
+      <div class="title sm" data-animate>Forget the old page builders</div>
+      <div class="text mb-20" data-animate>Long sales pages loaded with useless information should be left in 2015, where they belong. Boring. Exhausting to read. Take our ‘bubble’ blocks to explain your idea and get more leads with less hassle.</div>
+      <div class="btns mobile">
+        <a class="btn blue" href="#" data-animate data-add=".pricing">Purchase<i class="material-icons bold">arrow_forward</i></a>
+      </div>
+    </div>
+  </div>
+  <!-- end block 21 -->
+  <!-- block 2 -->
+  <div class="block inline" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">Now you can <b>share</b> and <b>test your business ideas</b> the moment they <b>come to your mind.</b></div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+  <!-- block 7-->
+  <div class="block" data-animate data-bg="3">
+    <div class="container">
+      <figure class="figure mb-30" data-animate>
+        <a class="figure-preview" href="#" data-lightbox-img="img/messengers.jpg">
+          <img class="img" src="img/messengers.jpg">
+        </a>
+      </figure>
+      <div class="title sm" data-animate>Inspired by chats</div>
+      <div class="text" data-animate>Chat messengers are everywhere. We took the best from them — the smooth look, the simple language, the content that is cut in many tiny bites easy to get.</div>
+    </div>
+  </div>
+  <!-- end block 7 -->
+  <!-- block 2 -->
+  <div class="block" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">Share your ideas with people and businesses as if you were messaging your Facebook friend.</div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+</div>
+<!-- end IDEA -->
+<!-- FEATURES -->
+<div class="features" id="features">
+  <!-- block 14-->
+  <div class="block" data-animate>
+    <div class="container lg">
+      <div class="title sm" data-animate>Fully customizable. Still suitable for noobs</div>
+      <div class="text mb-15" data-animate>Download the kit and modify the code as you want. Choose from 30+ beautiful pre-designed blocks and make any changes. We use clean and well-structured HTML5/CSS3. And we’ve made templates and guides for you.</div>
+      <a class="btn blue" href="#" data-animate data-add=".pricing">Get Started<i class="material-icons bold">arrow_forward</i></a>
+    </div>
+    <div class="container gray xl radius-bottom">
+      <div class="box flex">
+        <div class="box-col mr-25">
+          <div class="theme red lg" data-animate>
+            <div class="theme-preview">
+              <i class="material-icons">bluetooth_searching</i>
+            </div>
+          </div>
+        </div>
+        <div class="box-col">
+          <div class="text sm bold mb-5" data-animate>We've made it impossible to create ugly websites</div>
+          <div class="text sm" data-animate>Seedbelt Framework looks awesome no matter what you do to it. Your content makes it better, not worse.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end block 14 -->
+  <!-- block 22-->
+  <div class="block" data-animate>
+    <div class="container xl">
+      <div class="title sm" data-animate>Design that makes us stand out</div>
+      <div class="text mb-30" data-animate>Test your idea in no time. Use free illustrations and icons, or don’t use anything but plain text. It will look good, check it.</div>
+      <div class="row padding mb-30">
+        <div class="col">
+          <div class="preview blue mb-10" data-animate>
+            <i class="material-icons">layers</i>
+          </div>
+          <div class="text sm bold mb-5" data-animate>Unified plain style</div>
+          <div class="text sm" data-animate>Wrap any idea into ‘speech bubbles’ pre-made with the same style.</div>
+        </div>
+        <div class="col">
+          <div class="preview blue mb-10" data-animate="1"><i class="material-icons">picture_in_picture</i></div>
+          <div class="text sm bold mb-5" data-animate="1">Fast prototyping</div>
+          <div class="text sm" data-animate="1">Use source Sketch files for making prototypes with InVision, Marvel.</div>
+        </div>
+      </div>
+      <div class="row padding">
+        <div class="col">
+          <div class="preview blue mb-15" data-animate>
+            <i class="material-icons">question_answer</i>
+          </div>
+          <div class="text sm bold mb-5" data-animate>30+ interactive blocks</div>
+          <div class="text sm" data-animate>Polished pre-designed blocks to present any type of content. Fit them together like a puzzle.</div>
+        </div>
+        <div class="col">
+          <div class="preview blue mb-15" data-animate="1">
+            <i class="material-icons">toys</i>
+          </div>
+          <div class="text sm bold mb-5" data-animate="1">Seamless animation</div>
+          <div class="text sm" data-animate="1">The blocks appear as speech bubbles. And did we mention that it looks just stunning?</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end block 22 -->
+  <!-- block 2 -->
+  <div class="block inline" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">No online builders.</div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+  <!-- block 2 -->
+  <div class="block inline" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">No monthly fees.</div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+  <!-- block 2 -->
+  <div class="block inline" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">Just a dab of coding required.</div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+  <!-- block 5 -->
+  <div class="block" data-animate>
+    <div class="container">
+      <figure class="figure mb-25" data-animate>
+        <a class="figure-preview" href="#" data-lightbox-img="img/startup-1.jpg">
+          <img class="img" src="img/startup-1.jpg">
+        </a>
+      </figure>
+      <div class="text" data-animate>Easy for making sales pages for any business.</div>
+    </div>
+  </div>
+  <!-- end block 5 -->
+  <!-- block 5 -->
+  <div class="block" data-animate>
+    <div class="container">
+      <figure class="figure mb-25" data-animate>
+        <a class="figure-preview" href="#" data-lightbox-img="img/startup-2.jpg">
+          <img class="img" src="img/startup-2.jpg">
+        </a>
+      </figure>
+      <div class="text" data-animate>Ready for pitching startup ideas.</div>
+    </div>
+  </div>
+  <!-- end block 5 -->
+  <!-- block 5 -->
+  <div class="block" data-animate>
+    <div class="container">
+      <figure class="figure mb-25" data-animate>
+        <a class="figure-preview" href="#" data-lightbox-img="img/startup-3.jpg">
+          <img class="img" src="img/startup-3.jpg">
+        </a>
+      </figure>
+      <div class="text" data-animate>Useful for sharing any new idea or product.</div>
+    </div>
+  </div>
+  <!-- end block 5 -->
+  <!-- block 8 -->
+  <div class="block" data-animate>
+    <div class="container">
+      <div class="theme red mb-20" data-animate>
+        <div class="theme-preview mr-10">
+          <i class="material-icons">touch_app</i>
+        </div>
+        <div class="theme-text">How it works</div>
+      </div>
+      <figure class="figure mb-20" data-animate>
+        <a class="figure-preview" href="#" data-lightbox-video="https://www.youtube.com/embed/zarLqCwf5l0?rel=0&amp;autoplay=1">
+          <img class="img" src="img/video-action.jpg">
+          <div class="play">
+            <i class="material-icons">play_arrow</i>
+          </div>
+        </a>
+        <figcaption class="figcaption"><span class="bold">Watch Seedbelt</span> in action (1:25)</figcaption>
+      </figure>
+      <div class="title sm" data-animate>Open HTML code.</br>Type in your content.</br>Publish</div>
+      <div class="text" data-animate>Edit source files the way you like it, reorder the blocks and change the content. Save the results into a file and upload it to your hosting provider.</div>
+    </div>
+  </div>
+  <!-- end block 8 -->
+</div>
+<!-- end FEATURES -->
+
+<!-- DESIGN -->
+<div class="design hidden" id="design">
+  <!-- block 31-->
+  <div class="block inline arrow blue profile" data-animate>
+    <div class="system" data-animate>
+      <img class="system-pic" src="img/circle.svg">
+    </div>
+    <div class="container sm">
+      <div class="text" data-animate>Sure 🙌 Here, I’ve got some of our pre-designed blocks to show you.</div>
+    </div>
+  </div>
+  <!-- end block 31 -->
+  <!-- block 10 -->
+  <div class="block" data-animate>
+    <figure class="figure" data-animate>
+      <a class="figure-preview" href="#" data-lightbox-video="https://www.youtube.com/embed/upWhKQQzQWw?rel=0&amp;autoplay=1">
+        <img class="img radius-8" src="img/video-blocks.jpg">
+        <div class="play">
+          <i class="material-icons">play_arrow</i>
+        </div>
+      </a>
+    </figure>
+  </div>
+  <!-- end block 10 -->
+  <!-- block 9 -->
+  <div class="block" data-animate>
+    <div class="container">
+      <div class="mb-20">
+        <div class="theme red mb-20" data-animate>
+          <div class="theme-preview mr-10">
+            <i class="material-icons">touch_app</i>
+          </div>
+          <div class="theme-text">Blocks</div>
+        </div>
+        <div class="title sm" data-animate>Animated blocks</div>
+        <div class="text" data-animate>Choose from 30+ animated ‘bubble’ blocks of different designs suitable for any business idea.</div>
+      </div>
+      <div class="box wide" data-animate>
+        <div class="slider owl-carousel items-2 js-slider-cols-2">
+          <div class="slider-item">
+            <figure class="figure">
+              <a class="figure-preview" href="#" data-lightbox-img="img/blocks-1.jpg">
+                <img class="img" src="img/blocks-1.jpg">
+              </a>
+            </figure>
+          </div>
+          <div class="slider-item">
+            <figure class="figure">
+              <a class="figure-preview" href="#" data-lightbox-img="img/blocks-2.jpg">
+                <img class="img" src="img/blocks-2.jpg">
+              </a>
+            </figure>
+          </div>
+          <div class="slider-item">
+            <figure class="figure">
+              <a class="figure-preview" href="#" data-lightbox-img="img/blocks-3.jpg">
+                <img class="img" src="img/blocks-3.jpg">
+              </a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end block 9 -->
+  <!-- block 22-->
+  <div class="block" data-animate>
+    <div class="container xl">
+      <div class="title sm" data-animate>The design platform made for you</div>
+      <div class="text mb-30" data-animate>Create stunning pages even if you only got plain text and a couple of visuals. Publish your story in no time.</div>
+      <div class="row padding mb-30">
+        <div class="col">
+          <div class="preview blue mb-10" data-animate>
+            <i class="material-icons">color_lens</i>
+          </div>
+          <div class="text sm bold mb-5" data-animate>Material design colors & icons</div>
+          <div class="text sm" data-animate>We used free Google icons and colors. It makes it so easy to change.</div>
+        </div>
+        <div class="col">
+          <div class="preview blue mb-10" data-animate="1"><i class="material-icons">font_download</i></div>
+          <div class="text sm bold mb-5" data-animate="1">Free Google fonts</div>
+          <div class="text sm" data-animate="1">Choose from a wide range of Google fonts. Good-looking. Free. Easy to set.</div>
+        </div>
+      </div>
+      <div class="row padding">
+        <div class="col">
+          <div class="preview blue mb-15" data-animate>
+            <i class="material-icons">tonality</i>
+          </div>
+          <div class="text sm bold mb-5" data-animate>Light & dark themes</div>
+          <div class="text sm" data-animate>Assign the dark-colored theme to any block on a page to enhance it. Light theme is set by default.</div>
+        </div>
+        <div class="col">
+          <div class="preview blue mb-15" data-animate="1">
+            <i class="material-icons">devices</i>
+          </div>
+          <div class="text sm bold mb-5" data-animate="1">Looks good on any device</div>
+          <div class="text sm" data-animate="1">Pages load fast and look polished on desktops, tablets and phones. Retina optimised.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end block 22 -->
+  <!-- block 9 -->
+  <div class="block" data-animate>
+    <div class="container">
+      <div class="mb-20">
+        <div class="theme red mb-20" data-animate>
+          <div class="theme-preview mr-10">
+            <i class="material-icons">touch_app</i>
+          </div>
+          <div class="theme-text">Templates</div>
+        </div>
+        <div class="title sm" data-animate>Choose from useful pre-made templates</div>
+        <div class="text" data-animate>Including legal info blocks, Terms & Conditions pages, FAQ templates, etc. We’ve already spend time to build them so you can share your ideas in seconds.</div>
+      </div>
+      <div class="box wide" data-animate>
+        <div class="slider owl-carousel items-2 js-slider-cols-2">
+          <div class="slider-item">
+            <figure class="figure">
+              <a class="figure-preview" href="#" data-lightbox-img="img/templates-1.jpg">
+                <img class="img" src="img/templates-1.jpg">
+              </a>
+            </figure>
+          </div>
+          <div class="slider-item">
+            <figure class="figure">
+              <a class="figure-preview" href="#" data-lightbox-img="img/templates-2.jpg">
+                <img class="img" src="img/templates-2.jpg">
+              </a>
+            </figure>
+          </div>
+          <div class="slider-item">
+            <figure class="figure">
+              <a class="figure-preview" href="#" data-lightbox-img="img/templates-3.jpg">
+                <img class="img" src="img/templates-3.jpg">
+              </a>
+            </figure>
+          </div>
+          <div class="slider-item">
+            <figure class="figure">
+              <a class="figure-preview" href="#" data-lightbox-img="img/templates-4.jpg">
+                <img class="img" src="img/templates-4.jpg">
+              </a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end block 9 -->
+  <!-- block 2 -->
+  <div class="block" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">Use conversational blocks with options to choose from. Ask your users to do anything!</div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+	<!-- block 32-->
+	<div class="block inline arrow blue profile width-60" data-animate>
+	  <div class="system" data-animate>
+	    <img class="system-pic" src="img/circle.svg">
+	  </div>
+	  <div class="container sm">
+	    <div class="text mb-15" data-animate>Would you like to get news about Seedbelt Framework?</div>
+	    <form action="https://seedbelt-framework.us17.list-manage.com/subscribe/post?u=e4eee7dcee37e95477a214d1d&amp;id=27ac5380ee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	    <div class="group mb-15">
+	      <div class="group-field" data-animate>
+	        <div class="group-label mb-5">NAME</div>
+	        <input class="group-input" placeholder="Enter your name" name="FNAME">
+	      </div>
+	      <div class="group-field" data-animate>
+	        <div class="group-label mb-5">EMAIL</div>
+	        <input class="group-input" placeholder="Enter your email" type="email" value="" name="EMAIL">
+	      </div>
+	    </div>
+	    <button class="btn rounded white wide mb-10" data-animate type="submit" value="Subscribe" name="subscribe">
+	      <span class="btn-title">Subscribe</span>
+	      <span class="btn-check">
+	        <i class="material-icons">check</i>
+	      </span>
+	    </button>
+		</form>
+	    <div class="info opacity-70 align-center" data-animate>No charge. Unsubscribe anytime.</div>
+	  </div>
+	</div>
+	<!-- end block 32 -->
+  <!-- block 2 -->
+  <div class="block" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">We've made this framework for you. <b>Change the color</b> of any element, <b>font typeface</b> and <b>size</b>, <b>paddings</b> between the elements. Your code, your rules.</div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+  <!-- block 2 -->
+  <div class="block black" data-animate>
+    <div class="container sm" data-animate>
+      <div class="text">Or, turn everything black 🌗</div>
+    </div>
+  </div>
+  <!-- end block 2 -->
+  <!-- block 30 -->
+  <div class="block arrow blue inline profile width-60" data-animate>
+    <div class="system" data-animate>
+      <img class="system-pic" src="img/circle.svg">
+    </div>
+    <div class="container sm pb-20">
+      <div class="text mb-20" data-animate>What else we can tell you to understand Seedbelt better?</div>
+      <div class="info sm uppercase bold mb-10" data-animate>CHOOSE AN OPTION</div>
+      <div class="group">
+        <button class="group-btn" data-animate="1" data-add=".design">Browse through designs</button>
+        <button class="group-btn" data-animate="3" data-add=".pricing">See pricing</button>
+      </div>
+    </div>
+  </div>
+  <!-- end block 30 -->
+</div>
+<!-- end DESIGN -->
+
+<!-- block 12 -->
+<div class="block align-center" data-animate>
+  <div class="slider owl-carousel items-1 js-slider" data-animate>
+    <div class="slider-item">
+      <div class="review">
+        <div class="review-text">“Seedbelt Framework is a beautiful tool that helped me to build landing pages really fast. I use a couple of simple blocks made of few components, and they look awesome together. But the biggest thing about this framework is interactive type of blocks that builds conversation.”</div>
+        <div class="review-author">
+          <div class="text sm"><span class="bold">Alex Goldwin,</span> <span>Entrepreneur & Maker</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-item">
+      <div class="review">
+        <div class="review-text">“Seedbelt is a simple and powerful framework without things I hate about online website builders like lifelong subscription. I can connect with my customers and get feedback. With some basic coding skill I now think more about content than technical issues.”</div>
+        <div class="review-author">
+          <div class="text sm"><span class="bold">Ken Brod,</span> <span>Front-End Developer</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end block 12 -->
+<!-- block 30 -->
+  <div class="block arrow blue inline profile width-60" data-animate>
+    <div class="system" data-animate>
+      <img class="system-pic" src="img/circle.svg">
+    </div>
+    <div class="container sm pb-20">
+      <div class="text mb-20" data-animate>What else can we tell you to understand Seedbelt better?</div>
+      <div class="info sm uppercase bold mb-10" data-animate>CHOOSE AN OPTION</div>
+      <div class="group">
+        <button class="group-btn" data-animate="1" data-add=".design">Browse through designs</button>
+        <button class="group-btn" data-animate="3" data-add=".pricing">See pricing</button>
+      </div>
+    </div>
+  </div>
+  <!-- end block 30 -->
+<!-- PRICING -->
+<div class="pricing" id="pricing">
+  <!-- block 31-->
+  <div class="block inline" data-animate data-bg="2">
+    <div class="container sm">
+      <div class="text" data-animate><p><b>Start building your first page now</b></p>
+      <p>Purchase a licence and use Seedbelt Framework forever. No hidden fees or monthly plans.</p></div>
+    </div>
+  </div>
+  <!-- end block 31 -->
+  <!-- block 25-->
+  <div class="block price" data-animate>
+    <div class="grid border overflow radius-8">
+      <div class="col blue">
+        <div class="container lg dark-blue">
+          <div class="text sm bold uppercase mb-30" data-animate>Personal License</div>
+          <div class="text dollar bold mb-5" data-animate>$0</div>
+          <div class="text sm mb-40" data-animate></div>
+          <ul class="list mb-40" data-animate>
+            <li class="list-item"><b>For personal use</b></li>
+            <li class="list-item">HTML/CSS/Sketch included</li>
+            <li class="list-item">Unlimited projects</li>
+            <li class="list-item">Free updates</li>
+            <li class="list-item">No support included</li>
+          </ul>
+          <a class="btn wide dark-blue flex" href="https://transactions.sendowl.com/products/77679563/EE997704/purchase" rel="nofollow" data-animate>Download Free<i class="material-icons bold">arrow_forward</i></a>
+        </div>
+      </div>
+      <div class="col blue">
+        <div class="container lg dark-blue">
+          <div class="text sm bold uppercase mb-30" data-animate="1">Commercial License</div>
+          <div class="text dollar bold mb-5" data-animate="1">$89</div>
+          <div class="text sm mb-40" data-animate="1"></div>
+          <ul class="list mb-40" data-animate="1">
+            <li class="list-item"><b>For commercial use</b></li>
+            <li class="list-item">HTML/CSS/Sketch included</li>
+            <li class="list-item">Unlimited projects</li>
+            <li class="list-item">Free support & updates</li>
+            <li class="list-item">30 days money-back</li>
+          </ul>
+          <a class="btn wide dark-blue flex" href="https://transactions.sendowl.com/products/77679564/D53B5A82/purchase" rel="nofollow" data-animate="1">Purchase<i class="material-icons bold">arrow_forward</i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end block 25 -->
+  <!-- block 31-->
+  <div class="block inline" data-animate>
+    <div class="container sm">
+      <div class="text" data-animate>If this product will not cater to your needs, we will return the money with no questions asked.</div>
+    </div>
+  </div>
+  <!-- end block 31 -->
+  <!-- block 31-->
+  <div class="block inline arrow profile" data-animate>
+    <div class="system" data-animate>
+      <img class="system-pic" src="img/circle.svg">
+    </div>
+    <div class="container sm">
+      <div class="text" data-animate>Cheers 🏖</div>
+    </div>
+  </div>
+  <!-- end block 31 -->
+</div>
+<!-- end Pricing -->
+
+<!-- end PASTE YOUR HTML BLOCKS HERE -->
+
+
+</div>
+<!-- end center -->
+
+</div>
+<!-- end wrapper -->
+
+<!-- lightbox-->
+<div class="lightbox js-lightbox">
+  <button class="lightbox__close">
+    <i class="material-icons">close</i>
+  </button>
+  <div class="lightbox__wrap">
+    <img class="lightbox__img js-lightbox-img" src="">
+    <iframe class="lightbox__iframe js-lightbox-iframe" width="560" height="315" src="" frameborder="0" allowfullscreen autopley></iframe>
+  </div>
+</div>
+<!-- end lightbox -->
+
+<!-- footer-->
+<footer class="footer fixed js-footer">
+  <div class="footer__left" data-animate>
+    <div class="footer__menu">
+      <a class="footer__link" href="/license/">License</a>
+      <a class="footer__link" href="/terms/">Terms</a>
+      <a class="footer__link" href="/privacy/">Privacy</a>
+      <a class="footer__link" href="mailto:hello@seedbelt-framework.com">Contact</a>
+    </div>
+  </div>
+  <div class="footer__right" data-animate>
+    <div class="footer__copyright copyright">
+      <p>Made in California</p>
+      <p>© FocFoc 2017</p>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
+
+</div>
+<!-- end out -->
+
+<!-- load scripts -->
+<script type="text/javascript" src="js/app.js"></script>
+<!-- end load scripts -->
+
+<!-- svg sprite for local using -->
+<div hidden>
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+  <svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon-facebook" viewBox="0 0 28 28">
+      <path fill-rule="evenodd" d="M11.429 27.764C4.925 26.557 0 20.854 0 14 0 6.268 6.268 0 14 0s14 6.268 14 14c0 7.152-5.362 13.05-12.286 13.896v-8.118h3.429l.857-4.26h-4.286v-1.703c0-1.704.86-2.556 2.572-2.556H20V7h-3.429c-3.15 0-5.142 2.454-5.142 5.963v2.556H8v4.259h3.429v7.986z"/>
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 468.792 468.792">
+      <path d="M234.396 0C104.946 0 0 104.946 0 234.396s104.946 234.396 234.396 234.396 234.396-104.946 234.396-234.396C468.792 104.914 363.846 0 234.396 0zm146.485 370.329c0 5.816-4.736 10.552-10.615 10.552H98.462c-5.816 0-10.584-4.704-10.584-10.552V98.462c0-5.816 4.736-10.584 10.584-10.584h271.804c5.848 0 10.615 4.736 10.615 10.584v271.867zM175.789 234.396c0-32.355 26.252-58.607 58.607-58.607s58.607 26.252 58.607 58.607-26.252 58.607-58.607 58.607-58.607-26.253-58.607-58.607zm117.214-117.214h58.607v58.607h-58.607v-58.607zm26.633 102.562h31.973v131.834H117.214V219.744h32.005c-1.24 5.88-1.971 8.422-1.971 14.652 0 48.119 39.124 87.179 87.179 87.179 48.119 0 87.179-39.061 87.179-87.179-.031-6.23-.73-8.772-1.97-14.652z"/>
+    </symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 97.75 97.75">
+      <path d="M48.875 0C21.882 0 0 21.882 0 48.875S21.882 97.75 48.875 97.75 97.75 75.868 97.75 48.875 75.868 0 48.875 0zM30.562 81.966h-13.74V37.758h13.74v44.208zm-6.867-50.251a7.968 7.968 0 0 1-7.969-7.968 7.968 7.968 0 0 1 7.969-7.964c4.392 0 7.962 3.57 7.962 7.964 0 4.399-3.571 7.968-7.962 7.968zm58.328 50.251H68.294V60.467c0-5.127-.095-11.721-7.142-11.721-7.146 0-8.245 5.584-8.245 11.35v21.869H39.179V37.758h13.178v6.041h.185c1.835-3.476 6.315-7.14 13-7.14 13.913 0 16.481 9.156 16.481 21.059v24.248z"/>
+    </symbol>
+    <symbol id="icon-pinterest" viewBox="0 0 533.333 533.333">
+      <path d="M266.667 0C119.391 0 0 119.391 0 266.667c0 147.275 119.388 266.666 266.667 266.666 147.275 0 266.667-119.391 266.667-266.666C533.333 119.391 413.942 0 266.667 0zm25.856 356.311c-24.229-1.882-34.397-13.883-53.388-25.421-10.448 54.781-23.21 107.302-61.01 134.734-11.669-82.795 17.132-144.981 30.505-210.997-22.804-38.389 2.744-115.643 50.844-96.601 59.18 23.41-51.25 142.712 22.881 157.613 77.406 15.556 109.004-134.302 61.011-183.035-69.354-70.367-201.874-1.604-185.578 99.144 3.966 24.631 29.412 32.103 10.168 66.095-44.385-9.839-57.63-44.845-55.925-91.517 2.744-76.393 68.638-129.877 134.733-137.274 83.584-9.356 162.035 30.681 172.867 109.311 12.195 88.744-37.732 184.86-127.108 177.948z"/>
+    </symbol>
+    <symbol id="icon-twitter" viewBox="0 0 28 28">
+      <path fill-rule="evenodd" d="M14 28C6.268 28 0 21.732 0 14S6.268 0 14 0s14 6.268 14 14-6.268 14-14 14zm9-19.343a6.909 6.909 0 0 1-2.003.557 3.537 3.537 0 0 0 1.533-1.956 6.939 6.939 0 0 1-2.214.858A3.462 3.462 0 0 0 17.77 7c-1.926 0-3.488 1.582-3.488 3.534 0 .277.031.547.09.806-2.899-.148-5.468-1.555-7.188-3.693-.3.522-.473 1.129-.473 1.777 0 1.226.616 2.308 1.552 2.941a3.435 3.435 0 0 1-1.58-.442v.045c0 1.712 1.202 3.14 2.798 3.465a3.451 3.451 0 0 1-1.575.061c.443 1.404 1.731 2.426 3.258 2.455A6.94 6.94 0 0 1 6 19.412 9.78 9.78 0 0 0 11.346 21c6.416 0 9.924-5.386 9.924-10.056 0-.153-.003-.306-.01-.458A7.127 7.127 0 0 0 23 8.657z"/>
+    </symbol>
+    <symbol id="icon-vimeo" viewBox="0 0 508.52 508.52">
+      <path d="M254.26 0C113.845 0 0 113.845 0 254.26s113.845 254.26 254.26 254.26 254.26-113.845 254.26-254.26C508.52 113.813 394.675 0 254.26 0zm151.03 185.069c-17.067 96.047-112.319 177.378-140.955 195.939-28.668 18.561-54.793-7.437-64.296-27.142-10.838-22.375-43.351-144.038-51.869-154.113-8.518-10.075-34.071 10.075-34.071 10.075l-12.395-16.241s51.901-61.944 91.375-69.731c41.858-8.232 41.794 64.296 51.869 104.533 9.757 38.934 16.273 61.181 24.79 61.181 8.518 0 24.822-21.676 42.589-54.952 17.862-33.308-.763-62.739-35.628-41.826 13.984-83.619 145.627-103.737 128.591-7.723z"/>
+    </symbol>
+    <symbol id="icon-youtube" viewBox="0 0 97.75 97.75">
+      <path d="M39.969 59.587L61.91 48.211c-7.359-3.84-14.627-7.63-21.941-11.447v22.823z"/>
+      <path d="M48.875 0C21.883 0 0 21.882 0 48.875S21.883 97.75 48.875 97.75 97.75 75.868 97.75 48.875 75.867 0 48.875 0zm33.301 65.189c-.846 3.67-3.848 6.377-7.461 6.78-8.557.957-17.217.962-25.842.957-8.625.005-17.287 0-25.846-.957-3.613-.403-6.613-3.11-7.457-6.78-1.203-5.228-1.203-10.933-1.203-16.314s.014-11.088 1.217-16.314c.844-3.67 3.844-6.378 7.457-6.782 8.559-.956 17.221-.961 25.846-.956 8.623-.005 17.285 0 25.841.956 3.615.404 6.617 3.111 7.461 6.782 1.203 5.227 1.193 10.933 1.193 16.314s-.003 11.087-1.206 16.314z"/>
+    </symbol>
+  </svg>
+</div>
+<!-- end sprite svg -->
+
+<!-- Intercom -->
+<script>
+  window.intercomSettings = {
+    app_id: "ba1jlmep"
+  };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/ba1jlmep';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+</body>
+</html>
