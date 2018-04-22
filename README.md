@@ -1,4 +1,4 @@
-# Seedbelt HTML Framework (Personal License)
+# Seedbelt HTML Framework (Commercial License)
 30+ responsive animated blocks you can use to share any new idea or product.
 
 * Fully customizable
